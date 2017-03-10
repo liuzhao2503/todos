@@ -1,0 +1,21 @@
+注册邮箱为：smallliumang@sina.com
+
+github 项目为   liuzhao2503  密码：311····
+
+
+### 1、在当前文件夹内打开git   
+    +++ 1.输入 $ git clone https://github.com/liuzhao2503（github地址）/respository(资源库 我的资源库是  study).git    将资源库下载下来
+### 2、然后 进入资源库 文件夹 （study) cd study
+### 3、接着在里面编辑代码   
+    +++ 1.git add *.*  
+    +++ 2. git commit -m "something to intruduction"
+### 4、创建分支  
+    +++ git checkout -b  分支名  （这是两条语句的合并 A git branch  分支名   B  git checkout 分支名)
+    +++ 转换到 分支后在编辑  （重复上面3中的内容）
+    +++ 将分支的内容与主分支合并  
+        --- 1、切换到主分支   git checkout 主分支     
+        --- 2、合并分支   git merge  分支1
+        --- 3、合并其余分支  git merge  fenzhi2  (遇到冲突，解决冲突后在提交)
+### 5、提交到远程
+    +++ 1、git push https://github.com/liuzhao2503（github地址）/respository(资源库 我的资源库是  study).git 
+    之后再远程代码库查看即可发现已经更改
