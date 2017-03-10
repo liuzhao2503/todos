@@ -16,3 +16,5 @@
 ### 5、提交到远程
     +++ 1、git push https://github.com/liuzhao2503（github地址）/respository(资源库 我的资源库是  study).git 
     之后再远程代码库查看即可发现已经更改
+### 6、git log --pretty=oneline   查看简略版的  版本号
+### 7、 git reset --hard HEAD 版本号  ——————————————回退到某个版本
